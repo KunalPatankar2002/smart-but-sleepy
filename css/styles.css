@@ -1,11 +1,11 @@
 h1 {
+    padding-top: 100px;
 }
-
+nav {
+    margin-bottom: 2%;
+}
 .section1 {
-    color: white;
-    background-image: url("../images/books.jpg");
-    background-position: center;
-    padding: 200px;
+    text-align: center;
 }
 .section3 {
     background-color: coral;
