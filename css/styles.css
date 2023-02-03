@@ -1,0 +1,12 @@
+h1 {
+}
+
+.section1 {
+    color: white;
+    background-image: url("../images/books.jpg");
+    background-position: center;
+    padding: 200px;
+}
+.section3 {
+    background-color: coral;
+}
