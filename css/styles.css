@@ -1,93 +1,78 @@
-body {
-    font-family: 'Libre Franklin', sans-serif;
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 3px;
 }
-p {
-    line-height: 1.5;
+::-webkit-scrollbar-thumb {
+	background-color: #343a40;
 }
-h1 {
-    font-size: 6rem;
-    font-weight: 900;
+::-webkit-scrollbar-thumb:hover {
+	background-color: blueviolet;
 }
 
+/* HTML Tags */
+body {
+	font-family: "Libre Franklin", sans-serif;
+}
+p {
+	line-height: 1.5;
+}
+h1 {
+	font-size: 6rem;
+	color: white;
+	font-weight: 900;
+}
 h2 {
-    font-weight: 800;
-    font-size: 2.5rem;
+	font-weight: 800;
+	font-size: 2.5rem;
 }
-.section1-5 {
-    width: 50%;
-}
-.section2, .section3 {
-    width: 90%;
-    margin: auto;
-}
+
+/* Classes */
 .section1 {
-    scroll-margin-top: 3.3em;
-    background-image: url("../images/b1.jpg");
-    background-position: center;
+	scroll-margin-top: 3.3em;
+	background-image: url("../images/b1.jpg");
+	background-position: center;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.section2 {
+.about{
+    display: flex;
+}
+.about-text {
+	font-size: 1.3rem;
+}
+.section2,
+.section3 {
+	width: 90%;
+	margin: auto;
     scroll-margin-top: 3.3em;
     margin-top: 100px;
 }
-.section3 {
-    scroll-margin-top: 3.3em;
-}
-h1 {
-    padding: 18vh;
-    color: white;
-}
 img.resize {
-    width: 100%; 
-    height: auto;
-    border-radius: 25px;
-    padding-top: 10px;
-    
-} 
-::-webkit-scrollbar {
-    width: 3px;
-  }
-::-webkit-scrollbar-thumb {
-    background-color: #343a40;
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+	padding-top: 10px;
 }
-::-webkit-scrollbar-thumb:hover {
-    background-color:blueviolet;
+.h2links {
+    color: inherit;
 }
 
-about-text {
-    font-size: 1.3rem;
-}
-.about {
-    display: inline;
-    width: 50%;
-    background-color:rgb(28, 179, 83);
-    border-radius: 25px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
+/* Phone Screen */
 @media screen and (max-width: 575px) {
-    h1 {
-        font-size: 4rem;
-    }
-    nav {
-        margin-bottom: 0;
-    }
-    .ficbooks {
-
-    }
-    .card1 {
-        margin: auto;
-        display: flex;
-    }
-    img.resize {
-        min-width: 50%;
-    }
-    .text-center {
-        margin: auto;
-        padding-left: 10px;
-    }
-  }
+	h1 {
+		font-size: 3rem;
+	}
+	.card1 {
+		margin: auto;
+		display: flex;
+	}
+	img.resize {
+		min-width: 50%;
+	}
+	.text-center {
+		margin: auto;
+		padding-left: 10px;
+	}
+}
