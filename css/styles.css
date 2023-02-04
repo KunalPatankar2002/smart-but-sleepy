@@ -1,19 +1,46 @@
-h1 {
-    padding-top: 100px;
-}
-nav {
-    margin-bottom: 2%;
-}
+
 .section1 {
-    text-align: center;
+    background-image: url("../images/b1.jpg");
+    height: 55vh;
+    background-position: center;
 }
-.section3 {
-    background-color: coral;
-    text-align: center;
+.section2 {
+    margin-top: 100px;
+}
+h1 {
+    color: white;
 }
 img.resize {
-    width:100%; 
+    width: 100%; 
     height: auto;
     border-radius: 25px;
     padding-top: 10px;
 } 
+
+
+
+@media screen and (max-width: 575px) {
+    .section1 {
+        max-height: 275px;
+    }
+    nav {
+        margin-bottom: 0;
+    }
+    h1 {
+        padding-top: 20px;
+    }
+    .ficbooks {
+
+    }
+    .card1 {
+        margin: auto;
+        display: flex;
+    }
+    img.resize {
+        width: 50%;
+    }
+    .text-center {
+        margin: auto;
+        padding-left: 10px;
+    }
+  }
