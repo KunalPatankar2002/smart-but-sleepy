@@ -79,6 +79,15 @@ img.resize {
 	background-color: #343a40;
 }
 
+
+/* ids */
+#aboutUs {
+	width: 90%;
+	margin: auto;
+    scroll-margin-top: 3.3em;
+    margin-top: 100px;	
+}
+
 /* Phone Screen */
 @media screen and (max-width: 575px) {
 	h1 {
@@ -112,7 +121,6 @@ img.resize {
     display: flex;
 }
 
-/* medium and up screens */
 @media (min-width: 768px) {
     
     .carousel-inner .carousel-item-end.active,
