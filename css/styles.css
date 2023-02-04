@@ -78,6 +78,10 @@ img.resize {
 .nfc {
 	background-color: #343a40;
 }
+.buttons {
+	margin: auto;
+	text-align: center;
+}
 
 
 /* ids */
