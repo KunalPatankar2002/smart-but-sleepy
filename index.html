@@ -18,7 +18,7 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Icon -->
-    <link rel="icon" href="favicon.ico"/>
+    <link rel="icon" href="./images/favicon.ico" />
     <title>Borrow Beloved Books</title>
 </head>
 
@@ -48,115 +48,173 @@
     <div id="about">
         <p class="about-text">We're a community of book lovers who believe in sharing our books and fostering a love of
             reading.</p>
-        <p class="about-text">Explore our library, lend your books to others, and borrow books from fellow members for free.</p>
+        <p class="about-text">Explore our library, lend your books to others, and borrow books from fellow members for
+            free.</p>
     </div>
 
     <div class="section2" id="fic">
-        <a class = "h2links" href="fiction.html"><h2><i class="fa-solid fa-wand-sparkles"></i>&ensp;Fiction</h2></a>
-        <div class="container-fluid ficbooks">
-            <div class="row" style="padding: 5px;">
-                <div class="col-sm card1" style="background-color:rgb(248, 181, 181); border-radius: 25px;">
-                    <img class="resize"
-                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636978687i/58784475.jpg">
-                    <p class="text-center">book1</p>
-                    <p class="text-center"> description blah blah blah blah blah blah</p>
-                </div>
-                <div class="col-sm card1" style="background-color:rgb(195, 255, 192); border-radius: 25px;">
-                    <img class="resize"
-                        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1643228739l/55196813.jpg">
-                    <p class="text-center">book2</p>
-                    <p class="text-center text-wrap"> description</p>
-                </div>
-                <div class="col-sm card1" style="background-color:rgb(199, 192, 255); border-radius: 25px;">
-                    <img class="resize"
-                        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649848581l/60435878.jpg">
-                    <p class="text-center">book3</p>
-                    <p class="text-center text-wrap"> description</p>
-                </div>
-                <div class="col-sm card1" style="background-color:rgb(192, 255, 247); border-radius: 25px;">
-                    <img class="resize"
-                        src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg">
-                    <p class="text-center">book4</p>
-                    <p class="text-center text-wrap"> description</p>
-                </div>
-            </div>
-        </div>
+        <a class="h2links" href="fiction.html">
+            <h2><i class="fa-solid fa-wand-sparkles"></i>&ensp;Fiction</h2>
     </div>
-
-    <div class="section3" id="nonfic">
-        <a class = "h2links" href="nonfiction.html"><h2><i class="fa-solid fa-earth-asia"></i>&ensp;Non-Fiction</h2>
-        </div>
-        <div class="container text-center my-3">
-            <section style="background-color: #929292; border-radius: 25px; ">
-            <div class="row mx-auto my-auto justify-content-center">
-                <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card">
-                                    <div class="card-img">
-                                        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg" class="img-fluid">
-                                    </div>
+    <div class="container carouselFic text-center my-3">
+        <div class="row gx-3 mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card fc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
             </div>
-        </section>
         </div>
-        </a>
+    </div>
+    </a>
+
+    <div class="section3" id="nonfic">
+        <a class="h2links" href="nonfiction.html">
+            <h2><i class="fa-solid fa-earth-asia"></i>&ensp;Non-Fiction</h2>
+    </div>
+    <div class="container carouselNonFic text-center my-3">
+        <div class="row gx-3 mx-auto my-auto justify-content-center">
+            <div id="nonFicCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card nfc">
+                                <div class="card-img">
+                                    <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1633097753l/40132775._SY475_.jpg"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#nonFicCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#nonFicCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </a>
     </div>
 
 
