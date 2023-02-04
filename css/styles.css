@@ -8,11 +8,18 @@ h1 {
     font-size: 6rem;
     font-weight: 900;
 }
+
 h2 {
     font-weight: 800;
     font-size: 2.5rem;
 }
-
+.section1-5 {
+    width: 50%;
+}
+.section2, .section3 {
+    width: 90%;
+    margin: auto;
+}
 .section1 {
     scroll-margin-top: 3.3em;
     background-image: url("../images/b1.jpg");
@@ -46,8 +53,14 @@ img.resize {
     background-color:blueviolet;
 }
 
-#about-text {
+about-text {
     font-size: 1.3rem;
+}
+.about {
+    display: inline;
+    width: 50%;
+    background-color:rgb(28, 179, 83);
+    border-radius: 25px;
 }
 
 .sticky {
