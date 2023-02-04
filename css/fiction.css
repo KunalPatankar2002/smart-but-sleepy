@@ -36,9 +36,8 @@ h2 {
 img.resize {
     width: 100%; 
     height: auto;
-    border-radius: 25px;
-    padding-top: 10px;
-    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;    
 } 
 ::-webkit-scrollbar {
     width: 3px;
